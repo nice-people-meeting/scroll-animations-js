@@ -1,20 +1,28 @@
 {
   "name": "@jwun95/test-js",
-  "version": "1.0.6",
+  "version": "1.1.1",
   "main": "src/js/index.js",
   "homepage": "https://scroll-animation-js-web.vercel.app/",
   "repository": "https://github.com/nice-people-meeting/scroll-animation-js.git",
+  "types": "src/ts/index.d.ts",
   "author": "",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf css && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
+    "build": "rimraf css && npm run build-sass && npm run build-autoprefix && npm run build-cleancss && tsc",
     "build-sass": "node-sass --output-style expanded src/scss/index.scss src/css/index.css",
     "build-autoprefix": "postcss --use autoprefixer --map --output src/css/index.css src/css/index.css",
-    "build-cleancss": "cleancss -o src/css/index.min.css src/css/index.css"
+    "build-cleancss": "cleancss -o src/css/index.min.css src/css/index.css",
+    "start": "npm run build && node src/js/index.js",
+    "publish": "npm run build && npm publish"
   },
   "files": [
     "src"
   ],
+  "dependencies": {
+    "@types/browserify": "^12.0.37",
+    "browserify": "^17.0.0",
+    "typescript": "^4.7.0-dev.20220416"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.4",
     "clean-css-cli": "^5.6.0",
