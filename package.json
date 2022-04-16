@@ -1,0 +1,16 @@
+{
+  "name": "scroll-animation-js",
+  "version": "1.0.0",
+  "main": "dist/index.html",
+  "repository": "https://github.com/nice-people-meeting/scroll-animation-js.git",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "2.6.2"
+  }
+}
