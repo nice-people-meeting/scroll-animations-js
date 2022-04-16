@@ -31,3 +31,38 @@ $sa-distance: 200px !default;
 .sa-fade-down-left {
   transform: translate3d($sa-distance, -$sa-distance, 0);
 }
+.sa-animation {
+  @for $i from 1 through 10 {
+    &.sa-fade-up[sa-fade-distance='#{$i * 100}']:not(.sa-animated) {
+      transform: translate3d(0, #{$i * 100}px, 0);
+    }
+
+    &.sa-fade-down[sa-fade-distance='#{$i * 100}']:not(.sa-animated) {
+      transform: translate3d(0, -#{$i * 100}px, 0);
+    }
+
+    &.sa-fade-left[sa-fade-distance='#{$i * 100}']:not(.sa-animated) {
+      transform: translate3d(#{$i * 100}px, 0, 0);
+    }
+
+    &.sa-fade-right[sa-fade-distance='#{$i * 100}']:not(.sa-animated) {
+      transform: translate3d(-#{$i * 100}px, 0, 0);
+    }
+
+    &.sa-fade-up-right[sa-fade-distance='#{$i * 100}']:not(.sa-animated) {
+      transform: translate3d(-#{$i * 100}px, #{$i * 100}px, 0);
+    }
+
+    &.sa-fade-up-left[sa-fade-distance='#{$i * 100}']:not(.sa-animated) {
+      transform: translate3d(#{$i * 100}px, #{$i * 100}px, 0);
+    }
+
+    &.sa-fade-down-right[sa-fade-distance='#{$i * 100}']:not(.sa-animated) {
+      transform: translate3d(-#{$i * 100}px, -#{$i * 100}px, 0);
+    }
+
+    &.sa-fade-down-left[sa-fade-distance='#{$i * 100}']:not(.sa-animated) {
+      transform: translate3d(#{$i * 100}px, -#{$i * 100}px, 0);
+    }
+  }
+}
