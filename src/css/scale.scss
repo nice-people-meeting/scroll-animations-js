@@ -1,0 +1,17 @@
+.sa-scale {
+  transform: scale(2);
+}
+
+@for $i from 1 through 30 {
+  [sa-scale='#{$i * 0.1}'] {
+    transform: scale(#{$i * 0.1});
+  }
+
+  [sa-scale-x='#{$i * 0.1}'] {
+    transition-duration: scaleX(#{$i * 0.1});
+  }
+
+  [sa-scale-y='#{$i * 0.1}'] {
+    transition-duration: scaleY(#{$i * 0.1});
+  }
+}
