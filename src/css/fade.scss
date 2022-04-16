@@ -1,0 +1,33 @@
+$sa-distance: 200px !default;
+
+.sa-fade-up {
+  transform: translate3d(0, $sa-distance, 0);
+}
+
+.sa-fade-down {
+  transform: translate3d(0, -$sa-distance, 0);
+}
+
+.sa-fade-left {
+  transform: translate3d($sa-distance, 0, 0);
+}
+
+.sa-fade-right {
+  transform: translate3d(-$sa-distance, 0, 0);
+}
+
+.sa-fade-up-right {
+  transform: translate3d(-$sa-distance, $sa-distance, 0);
+}
+
+.sa-fade-up-left {
+  transform: translate3d($sa-distance, $sa-distance, 0);
+}
+
+.sa-fade-down-right {
+  transform: translate3d(-$sa-distance, -$sa-distance, 0);
+}
+
+.sa-fade-down-left {
+  transform: translate3d($sa-distance, -$sa-distance, 0);
+}
