@@ -3,7 +3,7 @@ let options = {
   duration: 500,
 };
 
-function init(settings) {
+module.exports = function init(settings) {
   options = Object.assign(options, settings);
 
   /*
@@ -41,10 +41,4 @@ function init(settings) {
   );
 
   document.querySelectorAll('.sa-animation').forEach(element => io.observe(element));
-}
-
-init();
-
-export default {
-  init,
 };

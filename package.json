@@ -1,18 +1,31 @@
 {
-  "name": "scroll-animation-js",
-  "version": "1.0.0",
-  "main": "dist/index.html",
+  "name": "@jwun95/test-js",
+  "version": "1.0.6",
+  "main": "src/js/index.js",
   "homepage": "https://scroll-animation-js-web.vercel.app/",
   "repository": "https://github.com/nice-people-meeting/scroll-animation-js.git",
   "author": "",
   "license": "MIT",
-  "dependencies": {},
+  "scripts": {
+    "build": "rimraf css && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
+    "build-sass": "node-sass --output-style expanded src/scss/index.scss src/css/index.css",
+    "build-autoprefix": "postcss --use autoprefixer --map --output src/css/index.css src/css/index.css",
+    "build-cleancss": "cleancss -o src/css/index.min.css src/css/index.css"
+  },
+  "files": [
+    "src"
+  ],
   "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "clean-css-cli": "^5.6.0",
     "eslint": "^8.13.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
+    "node-sass": "^7.0.1",
+    "postcss-cli": "^9.1.0",
     "prettier": "2.6.2",
+    "rimraf": "^3.0.2",
     "sass": "^1.50.0"
   }
 }

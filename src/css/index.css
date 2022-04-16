@@ -1,0 +1,1449 @@
+.sa-animation.sa-animated {
+  opacity: 1;
+  transform: none;
+}
+
+.sa-animation {
+  transition-property: transform, opacity;
+  transition-duration: 0.5s;
+  transition-delay: 0.5s;
+  opacity: 0;
+}
+
+body[sa-duration='50'] .sa-animation, .sa-animation.sa-animation[sa-duration='50'] {
+  transition-duration: 50ms;
+}
+
+body[sa-delay='50'] .sa-animation, .sa-animation.sa-animation[sa-delay='50'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='50'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='50'].aos-animate {
+  transition-delay: 50ms;
+}
+
+body[sa-duration='100'] .sa-animation, .sa-animation.sa-animation[sa-duration='100'] {
+  transition-duration: 100ms;
+}
+
+body[sa-delay='100'] .sa-animation, .sa-animation.sa-animation[sa-delay='100'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='100'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='100'].aos-animate {
+  transition-delay: 100ms;
+}
+
+body[sa-duration='150'] .sa-animation, .sa-animation.sa-animation[sa-duration='150'] {
+  transition-duration: 150ms;
+}
+
+body[sa-delay='150'] .sa-animation, .sa-animation.sa-animation[sa-delay='150'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='150'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='150'].aos-animate {
+  transition-delay: 150ms;
+}
+
+body[sa-duration='200'] .sa-animation, .sa-animation.sa-animation[sa-duration='200'] {
+  transition-duration: 200ms;
+}
+
+body[sa-delay='200'] .sa-animation, .sa-animation.sa-animation[sa-delay='200'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='200'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='200'].aos-animate {
+  transition-delay: 200ms;
+}
+
+body[sa-duration='250'] .sa-animation, .sa-animation.sa-animation[sa-duration='250'] {
+  transition-duration: 250ms;
+}
+
+body[sa-delay='250'] .sa-animation, .sa-animation.sa-animation[sa-delay='250'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='250'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='250'].aos-animate {
+  transition-delay: 250ms;
+}
+
+body[sa-duration='300'] .sa-animation, .sa-animation.sa-animation[sa-duration='300'] {
+  transition-duration: 300ms;
+}
+
+body[sa-delay='300'] .sa-animation, .sa-animation.sa-animation[sa-delay='300'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='300'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='300'].aos-animate {
+  transition-delay: 300ms;
+}
+
+body[sa-duration='350'] .sa-animation, .sa-animation.sa-animation[sa-duration='350'] {
+  transition-duration: 350ms;
+}
+
+body[sa-delay='350'] .sa-animation, .sa-animation.sa-animation[sa-delay='350'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='350'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='350'].aos-animate {
+  transition-delay: 350ms;
+}
+
+body[sa-duration='400'] .sa-animation, .sa-animation.sa-animation[sa-duration='400'] {
+  transition-duration: 400ms;
+}
+
+body[sa-delay='400'] .sa-animation, .sa-animation.sa-animation[sa-delay='400'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='400'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='400'].aos-animate {
+  transition-delay: 400ms;
+}
+
+body[sa-duration='450'] .sa-animation, .sa-animation.sa-animation[sa-duration='450'] {
+  transition-duration: 450ms;
+}
+
+body[sa-delay='450'] .sa-animation, .sa-animation.sa-animation[sa-delay='450'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='450'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='450'].aos-animate {
+  transition-delay: 450ms;
+}
+
+body[sa-duration='500'] .sa-animation, .sa-animation.sa-animation[sa-duration='500'] {
+  transition-duration: 500ms;
+}
+
+body[sa-delay='500'] .sa-animation, .sa-animation.sa-animation[sa-delay='500'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='500'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='500'].aos-animate {
+  transition-delay: 500ms;
+}
+
+body[sa-duration='550'] .sa-animation, .sa-animation.sa-animation[sa-duration='550'] {
+  transition-duration: 550ms;
+}
+
+body[sa-delay='550'] .sa-animation, .sa-animation.sa-animation[sa-delay='550'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='550'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='550'].aos-animate {
+  transition-delay: 550ms;
+}
+
+body[sa-duration='600'] .sa-animation, .sa-animation.sa-animation[sa-duration='600'] {
+  transition-duration: 600ms;
+}
+
+body[sa-delay='600'] .sa-animation, .sa-animation.sa-animation[sa-delay='600'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='600'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='600'].aos-animate {
+  transition-delay: 600ms;
+}
+
+body[sa-duration='650'] .sa-animation, .sa-animation.sa-animation[sa-duration='650'] {
+  transition-duration: 650ms;
+}
+
+body[sa-delay='650'] .sa-animation, .sa-animation.sa-animation[sa-delay='650'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='650'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='650'].aos-animate {
+  transition-delay: 650ms;
+}
+
+body[sa-duration='700'] .sa-animation, .sa-animation.sa-animation[sa-duration='700'] {
+  transition-duration: 700ms;
+}
+
+body[sa-delay='700'] .sa-animation, .sa-animation.sa-animation[sa-delay='700'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='700'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='700'].aos-animate {
+  transition-delay: 700ms;
+}
+
+body[sa-duration='750'] .sa-animation, .sa-animation.sa-animation[sa-duration='750'] {
+  transition-duration: 750ms;
+}
+
+body[sa-delay='750'] .sa-animation, .sa-animation.sa-animation[sa-delay='750'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='750'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='750'].aos-animate {
+  transition-delay: 750ms;
+}
+
+body[sa-duration='800'] .sa-animation, .sa-animation.sa-animation[sa-duration='800'] {
+  transition-duration: 800ms;
+}
+
+body[sa-delay='800'] .sa-animation, .sa-animation.sa-animation[sa-delay='800'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='800'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='800'].aos-animate {
+  transition-delay: 800ms;
+}
+
+body[sa-duration='850'] .sa-animation, .sa-animation.sa-animation[sa-duration='850'] {
+  transition-duration: 850ms;
+}
+
+body[sa-delay='850'] .sa-animation, .sa-animation.sa-animation[sa-delay='850'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='850'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='850'].aos-animate {
+  transition-delay: 850ms;
+}
+
+body[sa-duration='900'] .sa-animation, .sa-animation.sa-animation[sa-duration='900'] {
+  transition-duration: 900ms;
+}
+
+body[sa-delay='900'] .sa-animation, .sa-animation.sa-animation[sa-delay='900'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='900'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='900'].aos-animate {
+  transition-delay: 900ms;
+}
+
+body[sa-duration='950'] .sa-animation, .sa-animation.sa-animation[sa-duration='950'] {
+  transition-duration: 950ms;
+}
+
+body[sa-delay='950'] .sa-animation, .sa-animation.sa-animation[sa-delay='950'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='950'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='950'].aos-animate {
+  transition-delay: 950ms;
+}
+
+body[sa-duration='1000'] .sa-animation, .sa-animation.sa-animation[sa-duration='1000'] {
+  transition-duration: 1000ms;
+}
+
+body[sa-delay='1000'] .sa-animation, .sa-animation.sa-animation[sa-delay='1000'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='1000'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='1000'].aos-animate {
+  transition-delay: 1000ms;
+}
+
+body[sa-duration='1050'] .sa-animation, .sa-animation.sa-animation[sa-duration='1050'] {
+  transition-duration: 1050ms;
+}
+
+body[sa-delay='1050'] .sa-animation, .sa-animation.sa-animation[sa-delay='1050'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='1050'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='1050'].aos-animate {
+  transition-delay: 1050ms;
+}
+
+body[sa-duration='1100'] .sa-animation, .sa-animation.sa-animation[sa-duration='1100'] {
+  transition-duration: 1100ms;
+}
+
+body[sa-delay='1100'] .sa-animation, .sa-animation.sa-animation[sa-delay='1100'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='1100'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='1100'].aos-animate {
+  transition-delay: 1100ms;
+}
+
+body[sa-duration='1150'] .sa-animation, .sa-animation.sa-animation[sa-duration='1150'] {
+  transition-duration: 1150ms;
+}
+
+body[sa-delay='1150'] .sa-animation, .sa-animation.sa-animation[sa-delay='1150'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='1150'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='1150'].aos-animate {
+  transition-delay: 1150ms;
+}
+
+body[sa-duration='1200'] .sa-animation, .sa-animation.sa-animation[sa-duration='1200'] {
+  transition-duration: 1200ms;
+}
+
+body[sa-delay='1200'] .sa-animation, .sa-animation.sa-animation[sa-delay='1200'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='1200'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='1200'].aos-animate {
+  transition-delay: 1200ms;
+}
+
+body[sa-duration='1250'] .sa-animation, .sa-animation.sa-animation[sa-duration='1250'] {
+  transition-duration: 1250ms;
+}
+
+body[sa-delay='1250'] .sa-animation, .sa-animation.sa-animation[sa-delay='1250'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='1250'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='1250'].aos-animate {
+  transition-delay: 1250ms;
+}
+
+body[sa-duration='1300'] .sa-animation, .sa-animation.sa-animation[sa-duration='1300'] {
+  transition-duration: 1300ms;
+}
+
+body[sa-delay='1300'] .sa-animation, .sa-animation.sa-animation[sa-delay='1300'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='1300'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='1300'].aos-animate {
+  transition-delay: 1300ms;
+}
+
+body[sa-duration='1350'] .sa-animation, .sa-animation.sa-animation[sa-duration='1350'] {
+  transition-duration: 1350ms;
+}
+
+body[sa-delay='1350'] .sa-animation, .sa-animation.sa-animation[sa-delay='1350'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='1350'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='1350'].aos-animate {
+  transition-delay: 1350ms;
+}
+
+body[sa-duration='1400'] .sa-animation, .sa-animation.sa-animation[sa-duration='1400'] {
+  transition-duration: 1400ms;
+}
+
+body[sa-delay='1400'] .sa-animation, .sa-animation.sa-animation[sa-delay='1400'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='1400'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='1400'].aos-animate {
+  transition-delay: 1400ms;
+}
+
+body[sa-duration='1450'] .sa-animation, .sa-animation.sa-animation[sa-duration='1450'] {
+  transition-duration: 1450ms;
+}
+
+body[sa-delay='1450'] .sa-animation, .sa-animation.sa-animation[sa-delay='1450'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='1450'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='1450'].aos-animate {
+  transition-delay: 1450ms;
+}
+
+body[sa-duration='1500'] .sa-animation, .sa-animation.sa-animation[sa-duration='1500'] {
+  transition-duration: 1500ms;
+}
+
+body[sa-delay='1500'] .sa-animation, .sa-animation.sa-animation[sa-delay='1500'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='1500'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='1500'].aos-animate {
+  transition-delay: 1500ms;
+}
+
+body[sa-duration='1550'] .sa-animation, .sa-animation.sa-animation[sa-duration='1550'] {
+  transition-duration: 1550ms;
+}
+
+body[sa-delay='1550'] .sa-animation, .sa-animation.sa-animation[sa-delay='1550'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='1550'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='1550'].aos-animate {
+  transition-delay: 1550ms;
+}
+
+body[sa-duration='1600'] .sa-animation, .sa-animation.sa-animation[sa-duration='1600'] {
+  transition-duration: 1600ms;
+}
+
+body[sa-delay='1600'] .sa-animation, .sa-animation.sa-animation[sa-delay='1600'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='1600'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='1600'].aos-animate {
+  transition-delay: 1600ms;
+}
+
+body[sa-duration='1650'] .sa-animation, .sa-animation.sa-animation[sa-duration='1650'] {
+  transition-duration: 1650ms;
+}
+
+body[sa-delay='1650'] .sa-animation, .sa-animation.sa-animation[sa-delay='1650'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='1650'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='1650'].aos-animate {
+  transition-delay: 1650ms;
+}
+
+body[sa-duration='1700'] .sa-animation, .sa-animation.sa-animation[sa-duration='1700'] {
+  transition-duration: 1700ms;
+}
+
+body[sa-delay='1700'] .sa-animation, .sa-animation.sa-animation[sa-delay='1700'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='1700'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='1700'].aos-animate {
+  transition-delay: 1700ms;
+}
+
+body[sa-duration='1750'] .sa-animation, .sa-animation.sa-animation[sa-duration='1750'] {
+  transition-duration: 1750ms;
+}
+
+body[sa-delay='1750'] .sa-animation, .sa-animation.sa-animation[sa-delay='1750'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='1750'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='1750'].aos-animate {
+  transition-delay: 1750ms;
+}
+
+body[sa-duration='1800'] .sa-animation, .sa-animation.sa-animation[sa-duration='1800'] {
+  transition-duration: 1800ms;
+}
+
+body[sa-delay='1800'] .sa-animation, .sa-animation.sa-animation[sa-delay='1800'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='1800'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='1800'].aos-animate {
+  transition-delay: 1800ms;
+}
+
+body[sa-duration='1850'] .sa-animation, .sa-animation.sa-animation[sa-duration='1850'] {
+  transition-duration: 1850ms;
+}
+
+body[sa-delay='1850'] .sa-animation, .sa-animation.sa-animation[sa-delay='1850'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='1850'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='1850'].aos-animate {
+  transition-delay: 1850ms;
+}
+
+body[sa-duration='1900'] .sa-animation, .sa-animation.sa-animation[sa-duration='1900'] {
+  transition-duration: 1900ms;
+}
+
+body[sa-delay='1900'] .sa-animation, .sa-animation.sa-animation[sa-delay='1900'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='1900'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='1900'].aos-animate {
+  transition-delay: 1900ms;
+}
+
+body[sa-duration='1950'] .sa-animation, .sa-animation.sa-animation[sa-duration='1950'] {
+  transition-duration: 1950ms;
+}
+
+body[sa-delay='1950'] .sa-animation, .sa-animation.sa-animation[sa-delay='1950'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='1950'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='1950'].aos-animate {
+  transition-delay: 1950ms;
+}
+
+body[sa-duration='2000'] .sa-animation, .sa-animation.sa-animation[sa-duration='2000'] {
+  transition-duration: 2000ms;
+}
+
+body[sa-delay='2000'] .sa-animation, .sa-animation.sa-animation[sa-delay='2000'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='2000'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='2000'].aos-animate {
+  transition-delay: 2000ms;
+}
+
+body[sa-duration='2050'] .sa-animation, .sa-animation.sa-animation[sa-duration='2050'] {
+  transition-duration: 2050ms;
+}
+
+body[sa-delay='2050'] .sa-animation, .sa-animation.sa-animation[sa-delay='2050'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='2050'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='2050'].aos-animate {
+  transition-delay: 2050ms;
+}
+
+body[sa-duration='2100'] .sa-animation, .sa-animation.sa-animation[sa-duration='2100'] {
+  transition-duration: 2100ms;
+}
+
+body[sa-delay='2100'] .sa-animation, .sa-animation.sa-animation[sa-delay='2100'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='2100'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='2100'].aos-animate {
+  transition-delay: 2100ms;
+}
+
+body[sa-duration='2150'] .sa-animation, .sa-animation.sa-animation[sa-duration='2150'] {
+  transition-duration: 2150ms;
+}
+
+body[sa-delay='2150'] .sa-animation, .sa-animation.sa-animation[sa-delay='2150'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='2150'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='2150'].aos-animate {
+  transition-delay: 2150ms;
+}
+
+body[sa-duration='2200'] .sa-animation, .sa-animation.sa-animation[sa-duration='2200'] {
+  transition-duration: 2200ms;
+}
+
+body[sa-delay='2200'] .sa-animation, .sa-animation.sa-animation[sa-delay='2200'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='2200'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='2200'].aos-animate {
+  transition-delay: 2200ms;
+}
+
+body[sa-duration='2250'] .sa-animation, .sa-animation.sa-animation[sa-duration='2250'] {
+  transition-duration: 2250ms;
+}
+
+body[sa-delay='2250'] .sa-animation, .sa-animation.sa-animation[sa-delay='2250'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='2250'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='2250'].aos-animate {
+  transition-delay: 2250ms;
+}
+
+body[sa-duration='2300'] .sa-animation, .sa-animation.sa-animation[sa-duration='2300'] {
+  transition-duration: 2300ms;
+}
+
+body[sa-delay='2300'] .sa-animation, .sa-animation.sa-animation[sa-delay='2300'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='2300'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='2300'].aos-animate {
+  transition-delay: 2300ms;
+}
+
+body[sa-duration='2350'] .sa-animation, .sa-animation.sa-animation[sa-duration='2350'] {
+  transition-duration: 2350ms;
+}
+
+body[sa-delay='2350'] .sa-animation, .sa-animation.sa-animation[sa-delay='2350'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='2350'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='2350'].aos-animate {
+  transition-delay: 2350ms;
+}
+
+body[sa-duration='2400'] .sa-animation, .sa-animation.sa-animation[sa-duration='2400'] {
+  transition-duration: 2400ms;
+}
+
+body[sa-delay='2400'] .sa-animation, .sa-animation.sa-animation[sa-delay='2400'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='2400'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='2400'].aos-animate {
+  transition-delay: 2400ms;
+}
+
+body[sa-duration='2450'] .sa-animation, .sa-animation.sa-animation[sa-duration='2450'] {
+  transition-duration: 2450ms;
+}
+
+body[sa-delay='2450'] .sa-animation, .sa-animation.sa-animation[sa-delay='2450'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='2450'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='2450'].aos-animate {
+  transition-delay: 2450ms;
+}
+
+body[sa-duration='2500'] .sa-animation, .sa-animation.sa-animation[sa-duration='2500'] {
+  transition-duration: 2500ms;
+}
+
+body[sa-delay='2500'] .sa-animation, .sa-animation.sa-animation[sa-delay='2500'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='2500'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='2500'].aos-animate {
+  transition-delay: 2500ms;
+}
+
+body[sa-duration='2550'] .sa-animation, .sa-animation.sa-animation[sa-duration='2550'] {
+  transition-duration: 2550ms;
+}
+
+body[sa-delay='2550'] .sa-animation, .sa-animation.sa-animation[sa-delay='2550'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='2550'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='2550'].aos-animate {
+  transition-delay: 2550ms;
+}
+
+body[sa-duration='2600'] .sa-animation, .sa-animation.sa-animation[sa-duration='2600'] {
+  transition-duration: 2600ms;
+}
+
+body[sa-delay='2600'] .sa-animation, .sa-animation.sa-animation[sa-delay='2600'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='2600'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='2600'].aos-animate {
+  transition-delay: 2600ms;
+}
+
+body[sa-duration='2650'] .sa-animation, .sa-animation.sa-animation[sa-duration='2650'] {
+  transition-duration: 2650ms;
+}
+
+body[sa-delay='2650'] .sa-animation, .sa-animation.sa-animation[sa-delay='2650'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='2650'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='2650'].aos-animate {
+  transition-delay: 2650ms;
+}
+
+body[sa-duration='2700'] .sa-animation, .sa-animation.sa-animation[sa-duration='2700'] {
+  transition-duration: 2700ms;
+}
+
+body[sa-delay='2700'] .sa-animation, .sa-animation.sa-animation[sa-delay='2700'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='2700'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='2700'].aos-animate {
+  transition-delay: 2700ms;
+}
+
+body[sa-duration='2750'] .sa-animation, .sa-animation.sa-animation[sa-duration='2750'] {
+  transition-duration: 2750ms;
+}
+
+body[sa-delay='2750'] .sa-animation, .sa-animation.sa-animation[sa-delay='2750'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='2750'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='2750'].aos-animate {
+  transition-delay: 2750ms;
+}
+
+body[sa-duration='2800'] .sa-animation, .sa-animation.sa-animation[sa-duration='2800'] {
+  transition-duration: 2800ms;
+}
+
+body[sa-delay='2800'] .sa-animation, .sa-animation.sa-animation[sa-delay='2800'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='2800'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='2800'].aos-animate {
+  transition-delay: 2800ms;
+}
+
+body[sa-duration='2850'] .sa-animation, .sa-animation.sa-animation[sa-duration='2850'] {
+  transition-duration: 2850ms;
+}
+
+body[sa-delay='2850'] .sa-animation, .sa-animation.sa-animation[sa-delay='2850'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='2850'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='2850'].aos-animate {
+  transition-delay: 2850ms;
+}
+
+body[sa-duration='2900'] .sa-animation, .sa-animation.sa-animation[sa-duration='2900'] {
+  transition-duration: 2900ms;
+}
+
+body[sa-delay='2900'] .sa-animation, .sa-animation.sa-animation[sa-delay='2900'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='2900'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='2900'].aos-animate {
+  transition-delay: 2900ms;
+}
+
+body[sa-duration='2950'] .sa-animation, .sa-animation.sa-animation[sa-duration='2950'] {
+  transition-duration: 2950ms;
+}
+
+body[sa-delay='2950'] .sa-animation, .sa-animation.sa-animation[sa-delay='2950'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='2950'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='2950'].aos-animate {
+  transition-delay: 2950ms;
+}
+
+body[sa-duration='3000'] .sa-animation, .sa-animation.sa-animation[sa-duration='3000'] {
+  transition-duration: 3000ms;
+}
+
+body[sa-delay='3000'] .sa-animation, .sa-animation.sa-animation[sa-delay='3000'] {
+  transition-delay: 0s;
+}
+
+body[sa-delay='3000'] .sa-animation.aos-animate, .sa-animation.sa-animation[sa-delay='3000'].aos-animate {
+  transition-delay: 3000ms;
+}
+
+.sa-fade-up {
+  transform: translate3d(0, 200px, 0);
+}
+
+.sa-fade-down {
+  transform: translate3d(0, -200px, 0);
+}
+
+.sa-fade-left {
+  transform: translate3d(200px, 0, 0);
+}
+
+.sa-fade-right {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.sa-fade-up-right {
+  transform: translate3d(-200px, 200px, 0);
+}
+
+.sa-fade-up-left {
+  transform: translate3d(200px, 200px, 0);
+}
+
+.sa-fade-down-right {
+  transform: translate3d(-200px, -200px, 0);
+}
+
+.sa-fade-down-left {
+  transform: translate3d(200px, -200px, 0);
+}
+
+.sa-animation.sa-fade-up[sa-fade-distance='100']:not(.sa-animated) {
+  transform: translate3d(0, 100px, 0);
+}
+
+.sa-animation.sa-fade-down[sa-fade-distance='100']:not(.sa-animated) {
+  transform: translate3d(0, -100px, 0);
+}
+
+.sa-animation.sa-fade-left[sa-fade-distance='100']:not(.sa-animated) {
+  transform: translate3d(100px, 0, 0);
+}
+
+.sa-animation.sa-fade-right[sa-fade-distance='100']:not(.sa-animated) {
+  transform: translate3d(-100px, 0, 0);
+}
+
+.sa-animation.sa-fade-up-right[sa-fade-distance='100']:not(.sa-animated) {
+  transform: translate3d(-100px, 100px, 0);
+}
+
+.sa-animation.sa-fade-up-left[sa-fade-distance='100']:not(.sa-animated) {
+  transform: translate3d(100px, 100px, 0);
+}
+
+.sa-animation.sa-fade-down-right[sa-fade-distance='100']:not(.sa-animated) {
+  transform: translate3d(-100px, -100px, 0);
+}
+
+.sa-animation.sa-fade-down-left[sa-fade-distance='100']:not(.sa-animated) {
+  transform: translate3d(100px, -100px, 0);
+}
+
+.sa-animation.sa-fade-up[sa-fade-distance='200']:not(.sa-animated) {
+  transform: translate3d(0, 200px, 0);
+}
+
+.sa-animation.sa-fade-down[sa-fade-distance='200']:not(.sa-animated) {
+  transform: translate3d(0, -200px, 0);
+}
+
+.sa-animation.sa-fade-left[sa-fade-distance='200']:not(.sa-animated) {
+  transform: translate3d(200px, 0, 0);
+}
+
+.sa-animation.sa-fade-right[sa-fade-distance='200']:not(.sa-animated) {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.sa-animation.sa-fade-up-right[sa-fade-distance='200']:not(.sa-animated) {
+  transform: translate3d(-200px, 200px, 0);
+}
+
+.sa-animation.sa-fade-up-left[sa-fade-distance='200']:not(.sa-animated) {
+  transform: translate3d(200px, 200px, 0);
+}
+
+.sa-animation.sa-fade-down-right[sa-fade-distance='200']:not(.sa-animated) {
+  transform: translate3d(-200px, -200px, 0);
+}
+
+.sa-animation.sa-fade-down-left[sa-fade-distance='200']:not(.sa-animated) {
+  transform: translate3d(200px, -200px, 0);
+}
+
+.sa-animation.sa-fade-up[sa-fade-distance='300']:not(.sa-animated) {
+  transform: translate3d(0, 300px, 0);
+}
+
+.sa-animation.sa-fade-down[sa-fade-distance='300']:not(.sa-animated) {
+  transform: translate3d(0, -300px, 0);
+}
+
+.sa-animation.sa-fade-left[sa-fade-distance='300']:not(.sa-animated) {
+  transform: translate3d(300px, 0, 0);
+}
+
+.sa-animation.sa-fade-right[sa-fade-distance='300']:not(.sa-animated) {
+  transform: translate3d(-300px, 0, 0);
+}
+
+.sa-animation.sa-fade-up-right[sa-fade-distance='300']:not(.sa-animated) {
+  transform: translate3d(-300px, 300px, 0);
+}
+
+.sa-animation.sa-fade-up-left[sa-fade-distance='300']:not(.sa-animated) {
+  transform: translate3d(300px, 300px, 0);
+}
+
+.sa-animation.sa-fade-down-right[sa-fade-distance='300']:not(.sa-animated) {
+  transform: translate3d(-300px, -300px, 0);
+}
+
+.sa-animation.sa-fade-down-left[sa-fade-distance='300']:not(.sa-animated) {
+  transform: translate3d(300px, -300px, 0);
+}
+
+.sa-animation.sa-fade-up[sa-fade-distance='400']:not(.sa-animated) {
+  transform: translate3d(0, 400px, 0);
+}
+
+.sa-animation.sa-fade-down[sa-fade-distance='400']:not(.sa-animated) {
+  transform: translate3d(0, -400px, 0);
+}
+
+.sa-animation.sa-fade-left[sa-fade-distance='400']:not(.sa-animated) {
+  transform: translate3d(400px, 0, 0);
+}
+
+.sa-animation.sa-fade-right[sa-fade-distance='400']:not(.sa-animated) {
+  transform: translate3d(-400px, 0, 0);
+}
+
+.sa-animation.sa-fade-up-right[sa-fade-distance='400']:not(.sa-animated) {
+  transform: translate3d(-400px, 400px, 0);
+}
+
+.sa-animation.sa-fade-up-left[sa-fade-distance='400']:not(.sa-animated) {
+  transform: translate3d(400px, 400px, 0);
+}
+
+.sa-animation.sa-fade-down-right[sa-fade-distance='400']:not(.sa-animated) {
+  transform: translate3d(-400px, -400px, 0);
+}
+
+.sa-animation.sa-fade-down-left[sa-fade-distance='400']:not(.sa-animated) {
+  transform: translate3d(400px, -400px, 0);
+}
+
+.sa-animation.sa-fade-up[sa-fade-distance='500']:not(.sa-animated) {
+  transform: translate3d(0, 500px, 0);
+}
+
+.sa-animation.sa-fade-down[sa-fade-distance='500']:not(.sa-animated) {
+  transform: translate3d(0, -500px, 0);
+}
+
+.sa-animation.sa-fade-left[sa-fade-distance='500']:not(.sa-animated) {
+  transform: translate3d(500px, 0, 0);
+}
+
+.sa-animation.sa-fade-right[sa-fade-distance='500']:not(.sa-animated) {
+  transform: translate3d(-500px, 0, 0);
+}
+
+.sa-animation.sa-fade-up-right[sa-fade-distance='500']:not(.sa-animated) {
+  transform: translate3d(-500px, 500px, 0);
+}
+
+.sa-animation.sa-fade-up-left[sa-fade-distance='500']:not(.sa-animated) {
+  transform: translate3d(500px, 500px, 0);
+}
+
+.sa-animation.sa-fade-down-right[sa-fade-distance='500']:not(.sa-animated) {
+  transform: translate3d(-500px, -500px, 0);
+}
+
+.sa-animation.sa-fade-down-left[sa-fade-distance='500']:not(.sa-animated) {
+  transform: translate3d(500px, -500px, 0);
+}
+
+.sa-animation.sa-fade-up[sa-fade-distance='600']:not(.sa-animated) {
+  transform: translate3d(0, 600px, 0);
+}
+
+.sa-animation.sa-fade-down[sa-fade-distance='600']:not(.sa-animated) {
+  transform: translate3d(0, -600px, 0);
+}
+
+.sa-animation.sa-fade-left[sa-fade-distance='600']:not(.sa-animated) {
+  transform: translate3d(600px, 0, 0);
+}
+
+.sa-animation.sa-fade-right[sa-fade-distance='600']:not(.sa-animated) {
+  transform: translate3d(-600px, 0, 0);
+}
+
+.sa-animation.sa-fade-up-right[sa-fade-distance='600']:not(.sa-animated) {
+  transform: translate3d(-600px, 600px, 0);
+}
+
+.sa-animation.sa-fade-up-left[sa-fade-distance='600']:not(.sa-animated) {
+  transform: translate3d(600px, 600px, 0);
+}
+
+.sa-animation.sa-fade-down-right[sa-fade-distance='600']:not(.sa-animated) {
+  transform: translate3d(-600px, -600px, 0);
+}
+
+.sa-animation.sa-fade-down-left[sa-fade-distance='600']:not(.sa-animated) {
+  transform: translate3d(600px, -600px, 0);
+}
+
+.sa-animation.sa-fade-up[sa-fade-distance='700']:not(.sa-animated) {
+  transform: translate3d(0, 700px, 0);
+}
+
+.sa-animation.sa-fade-down[sa-fade-distance='700']:not(.sa-animated) {
+  transform: translate3d(0, -700px, 0);
+}
+
+.sa-animation.sa-fade-left[sa-fade-distance='700']:not(.sa-animated) {
+  transform: translate3d(700px, 0, 0);
+}
+
+.sa-animation.sa-fade-right[sa-fade-distance='700']:not(.sa-animated) {
+  transform: translate3d(-700px, 0, 0);
+}
+
+.sa-animation.sa-fade-up-right[sa-fade-distance='700']:not(.sa-animated) {
+  transform: translate3d(-700px, 700px, 0);
+}
+
+.sa-animation.sa-fade-up-left[sa-fade-distance='700']:not(.sa-animated) {
+  transform: translate3d(700px, 700px, 0);
+}
+
+.sa-animation.sa-fade-down-right[sa-fade-distance='700']:not(.sa-animated) {
+  transform: translate3d(-700px, -700px, 0);
+}
+
+.sa-animation.sa-fade-down-left[sa-fade-distance='700']:not(.sa-animated) {
+  transform: translate3d(700px, -700px, 0);
+}
+
+.sa-animation.sa-fade-up[sa-fade-distance='800']:not(.sa-animated) {
+  transform: translate3d(0, 800px, 0);
+}
+
+.sa-animation.sa-fade-down[sa-fade-distance='800']:not(.sa-animated) {
+  transform: translate3d(0, -800px, 0);
+}
+
+.sa-animation.sa-fade-left[sa-fade-distance='800']:not(.sa-animated) {
+  transform: translate3d(800px, 0, 0);
+}
+
+.sa-animation.sa-fade-right[sa-fade-distance='800']:not(.sa-animated) {
+  transform: translate3d(-800px, 0, 0);
+}
+
+.sa-animation.sa-fade-up-right[sa-fade-distance='800']:not(.sa-animated) {
+  transform: translate3d(-800px, 800px, 0);
+}
+
+.sa-animation.sa-fade-up-left[sa-fade-distance='800']:not(.sa-animated) {
+  transform: translate3d(800px, 800px, 0);
+}
+
+.sa-animation.sa-fade-down-right[sa-fade-distance='800']:not(.sa-animated) {
+  transform: translate3d(-800px, -800px, 0);
+}
+
+.sa-animation.sa-fade-down-left[sa-fade-distance='800']:not(.sa-animated) {
+  transform: translate3d(800px, -800px, 0);
+}
+
+.sa-animation.sa-fade-up[sa-fade-distance='900']:not(.sa-animated) {
+  transform: translate3d(0, 900px, 0);
+}
+
+.sa-animation.sa-fade-down[sa-fade-distance='900']:not(.sa-animated) {
+  transform: translate3d(0, -900px, 0);
+}
+
+.sa-animation.sa-fade-left[sa-fade-distance='900']:not(.sa-animated) {
+  transform: translate3d(900px, 0, 0);
+}
+
+.sa-animation.sa-fade-right[sa-fade-distance='900']:not(.sa-animated) {
+  transform: translate3d(-900px, 0, 0);
+}
+
+.sa-animation.sa-fade-up-right[sa-fade-distance='900']:not(.sa-animated) {
+  transform: translate3d(-900px, 900px, 0);
+}
+
+.sa-animation.sa-fade-up-left[sa-fade-distance='900']:not(.sa-animated) {
+  transform: translate3d(900px, 900px, 0);
+}
+
+.sa-animation.sa-fade-down-right[sa-fade-distance='900']:not(.sa-animated) {
+  transform: translate3d(-900px, -900px, 0);
+}
+
+.sa-animation.sa-fade-down-left[sa-fade-distance='900']:not(.sa-animated) {
+  transform: translate3d(900px, -900px, 0);
+}
+
+.sa-animation.sa-fade-up[sa-fade-distance='1000']:not(.sa-animated) {
+  transform: translate3d(0, 1000px, 0);
+}
+
+.sa-animation.sa-fade-down[sa-fade-distance='1000']:not(.sa-animated) {
+  transform: translate3d(0, -1000px, 0);
+}
+
+.sa-animation.sa-fade-left[sa-fade-distance='1000']:not(.sa-animated) {
+  transform: translate3d(1000px, 0, 0);
+}
+
+.sa-animation.sa-fade-right[sa-fade-distance='1000']:not(.sa-animated) {
+  transform: translate3d(-1000px, 0, 0);
+}
+
+.sa-animation.sa-fade-up-right[sa-fade-distance='1000']:not(.sa-animated) {
+  transform: translate3d(-1000px, 1000px, 0);
+}
+
+.sa-animation.sa-fade-up-left[sa-fade-distance='1000']:not(.sa-animated) {
+  transform: translate3d(1000px, 1000px, 0);
+}
+
+.sa-animation.sa-fade-down-right[sa-fade-distance='1000']:not(.sa-animated) {
+  transform: translate3d(-1000px, -1000px, 0);
+}
+
+.sa-animation.sa-fade-down-left[sa-fade-distance='1000']:not(.sa-animated) {
+  transform: translate3d(1000px, -1000px, 0);
+}
+
+.sa-scale {
+  transform: scale(2);
+}
+
+[sa-scale='0.1'] {
+  transform: scale(0.1);
+}
+
+[sa-scale-x='0.1'] {
+  transform: scaleX(0.1);
+}
+
+[sa-scale-y='0.1'] {
+  transform: scaleY(0.1);
+}
+
+[sa-scale='0.2'] {
+  transform: scale(0.2);
+}
+
+[sa-scale-x='0.2'] {
+  transform: scaleX(0.2);
+}
+
+[sa-scale-y='0.2'] {
+  transform: scaleY(0.2);
+}
+
+[sa-scale='0.3'] {
+  transform: scale(0.3);
+}
+
+[sa-scale-x='0.3'] {
+  transform: scaleX(0.3);
+}
+
+[sa-scale-y='0.3'] {
+  transform: scaleY(0.3);
+}
+
+[sa-scale='0.4'] {
+  transform: scale(0.4);
+}
+
+[sa-scale-x='0.4'] {
+  transform: scaleX(0.4);
+}
+
+[sa-scale-y='0.4'] {
+  transform: scaleY(0.4);
+}
+
+[sa-scale='0.5'] {
+  transform: scale(0.5);
+}
+
+[sa-scale-x='0.5'] {
+  transform: scaleX(0.5);
+}
+
+[sa-scale-y='0.5'] {
+  transform: scaleY(0.5);
+}
+
+[sa-scale='0.6'] {
+  transform: scale(0.6);
+}
+
+[sa-scale-x='0.6'] {
+  transform: scaleX(0.6);
+}
+
+[sa-scale-y='0.6'] {
+  transform: scaleY(0.6);
+}
+
+[sa-scale='0.7'] {
+  transform: scale(0.7);
+}
+
+[sa-scale-x='0.7'] {
+  transform: scaleX(0.7);
+}
+
+[sa-scale-y='0.7'] {
+  transform: scaleY(0.7);
+}
+
+[sa-scale='0.8'] {
+  transform: scale(0.8);
+}
+
+[sa-scale-x='0.8'] {
+  transform: scaleX(0.8);
+}
+
+[sa-scale-y='0.8'] {
+  transform: scaleY(0.8);
+}
+
+[sa-scale='0.9'] {
+  transform: scale(0.9);
+}
+
+[sa-scale-x='0.9'] {
+  transform: scaleX(0.9);
+}
+
+[sa-scale-y='0.9'] {
+  transform: scaleY(0.9);
+}
+
+[sa-scale='1'] {
+  transform: scale(1);
+}
+
+[sa-scale-x='1'] {
+  transform: scaleX(1);
+}
+
+[sa-scale-y='1'] {
+  transform: scaleY(1);
+}
+
+[sa-scale='1.1'] {
+  transform: scale(1.1);
+}
+
+[sa-scale-x='1.1'] {
+  transform: scaleX(1.1);
+}
+
+[sa-scale-y='1.1'] {
+  transform: scaleY(1.1);
+}
+
+[sa-scale='1.2'] {
+  transform: scale(1.2);
+}
+
+[sa-scale-x='1.2'] {
+  transform: scaleX(1.2);
+}
+
+[sa-scale-y='1.2'] {
+  transform: scaleY(1.2);
+}
+
+[sa-scale='1.3'] {
+  transform: scale(1.3);
+}
+
+[sa-scale-x='1.3'] {
+  transform: scaleX(1.3);
+}
+
+[sa-scale-y='1.3'] {
+  transform: scaleY(1.3);
+}
+
+[sa-scale='1.4'] {
+  transform: scale(1.4);
+}
+
+[sa-scale-x='1.4'] {
+  transform: scaleX(1.4);
+}
+
+[sa-scale-y='1.4'] {
+  transform: scaleY(1.4);
+}
+
+[sa-scale='1.5'] {
+  transform: scale(1.5);
+}
+
+[sa-scale-x='1.5'] {
+  transform: scaleX(1.5);
+}
+
+[sa-scale-y='1.5'] {
+  transform: scaleY(1.5);
+}
+
+[sa-scale='1.6'] {
+  transform: scale(1.6);
+}
+
+[sa-scale-x='1.6'] {
+  transform: scaleX(1.6);
+}
+
+[sa-scale-y='1.6'] {
+  transform: scaleY(1.6);
+}
+
+[sa-scale='1.7'] {
+  transform: scale(1.7);
+}
+
+[sa-scale-x='1.7'] {
+  transform: scaleX(1.7);
+}
+
+[sa-scale-y='1.7'] {
+  transform: scaleY(1.7);
+}
+
+[sa-scale='1.8'] {
+  transform: scale(1.8);
+}
+
+[sa-scale-x='1.8'] {
+  transform: scaleX(1.8);
+}
+
+[sa-scale-y='1.8'] {
+  transform: scaleY(1.8);
+}
+
+[sa-scale='1.9'] {
+  transform: scale(1.9);
+}
+
+[sa-scale-x='1.9'] {
+  transform: scaleX(1.9);
+}
+
+[sa-scale-y='1.9'] {
+  transform: scaleY(1.9);
+}
+
+[sa-scale='2'] {
+  transform: scale(2);
+}
+
+[sa-scale-x='2'] {
+  transform: scaleX(2);
+}
+
+[sa-scale-y='2'] {
+  transform: scaleY(2);
+}
+
+[sa-scale='2.1'] {
+  transform: scale(2.1);
+}
+
+[sa-scale-x='2.1'] {
+  transform: scaleX(2.1);
+}
+
+[sa-scale-y='2.1'] {
+  transform: scaleY(2.1);
+}
+
+[sa-scale='2.2'] {
+  transform: scale(2.2);
+}
+
+[sa-scale-x='2.2'] {
+  transform: scaleX(2.2);
+}
+
+[sa-scale-y='2.2'] {
+  transform: scaleY(2.2);
+}
+
+[sa-scale='2.3'] {
+  transform: scale(2.3);
+}
+
+[sa-scale-x='2.3'] {
+  transform: scaleX(2.3);
+}
+
+[sa-scale-y='2.3'] {
+  transform: scaleY(2.3);
+}
+
+[sa-scale='2.4'] {
+  transform: scale(2.4);
+}
+
+[sa-scale-x='2.4'] {
+  transform: scaleX(2.4);
+}
+
+[sa-scale-y='2.4'] {
+  transform: scaleY(2.4);
+}
+
+[sa-scale='2.5'] {
+  transform: scale(2.5);
+}
+
+[sa-scale-x='2.5'] {
+  transform: scaleX(2.5);
+}
+
+[sa-scale-y='2.5'] {
+  transform: scaleY(2.5);
+}
+
+[sa-scale='2.6'] {
+  transform: scale(2.6);
+}
+
+[sa-scale-x='2.6'] {
+  transform: scaleX(2.6);
+}
+
+[sa-scale-y='2.6'] {
+  transform: scaleY(2.6);
+}
+
+[sa-scale='2.7'] {
+  transform: scale(2.7);
+}
+
+[sa-scale-x='2.7'] {
+  transform: scaleX(2.7);
+}
+
+[sa-scale-y='2.7'] {
+  transform: scaleY(2.7);
+}
+
+[sa-scale='2.8'] {
+  transform: scale(2.8);
+}
+
+[sa-scale-x='2.8'] {
+  transform: scaleX(2.8);
+}
+
+[sa-scale-y='2.8'] {
+  transform: scaleY(2.8);
+}
+
+[sa-scale='2.9'] {
+  transform: scale(2.9);
+}
+
+[sa-scale-x='2.9'] {
+  transform: scaleX(2.9);
+}
+
+[sa-scale-y='2.9'] {
+  transform: scaleY(2.9);
+}
+
+[sa-scale='3'] {
+  transform: scale(3);
+}
+
+[sa-scale-x='3'] {
+  transform: scaleX(3);
+}
+
+[sa-scale-y='3'] {
+  transform: scaleY(3);
+}
+
+/*# sourceMappingURL=index.css.map */
