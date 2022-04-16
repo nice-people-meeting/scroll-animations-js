@@ -1,0 +1,20 @@
+/*direction from*/
+.sa-fade-up {
+  transform: translate3d(0, 100px, 0);
+}
+
+.sa-fade-down {
+  transform: translate3d(0, -100px, 0);
+}
+
+.sa-fade-left {
+  transform: translate3d(100px, 0, 0);
+}
+
+.sa-fade-right {
+  transform: translate3d(-100px, 0, 0);
+}
+
+.sa-delay-2s {
+  animation-delay: 2s;
+}
