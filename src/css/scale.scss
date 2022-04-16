@@ -8,10 +8,10 @@
   }
 
   [sa-scale-x='#{$i * 0.1}'] {
-    transition-duration: scaleX(#{$i * 0.1});
+    transform: scaleX(#{$i * 0.1});
   }
 
   [sa-scale-y='#{$i * 0.1}'] {
-    transition-duration: scaleY(#{$i * 0.1});
+    transform: scaleY(#{$i * 0.1});
   }
 }
