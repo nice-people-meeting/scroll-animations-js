@@ -1,4 +1,7 @@
-let options = {};
+let options = {
+  delay: 500,
+  duration: 500,
+};
 
 function init(settings) {
   options = Object.assign(options, settings);
@@ -15,6 +18,9 @@ function init(settings) {
     console.warn('IntersectionObserver is not supported by your browser.');
     return;
   }
+
+  document.querySelector('body').setAttribute('sa-duration', options.duration.toString());
+  document.querySelector('body').setAttribute('sa-delay', options.delay.toString());
 
   const io = new IntersectionObserver(
     (entries, observer) => {
