@@ -1,0 +1,29 @@
+.sa-animation.sa-animated {
+  opacity: 1;
+  transform: none;
+}
+
+.sa-animation {
+  transition-property: transform, opacity;
+  transition-duration: 0.5s;
+  transition-delay: 0.5s;
+  opacity: 0;
+}
+
+.sa-animation {
+  @for $i from 1 through 60 {
+    body[sa-duration='#{$i * 50}'] &,
+    &.sa-animation[sa-duration='#{$i * 50}'] {
+      transition-duration: #{$i * 50}ms;
+    }
+
+    body[sa-delay='#{$i * 50}'] &,
+    &.sa-animation[sa-delay='#{$i * 50}'] {
+      transition-delay: 0s;
+
+      &.aos-animate {
+        transition-delay: #{$i * 50}ms;
+      }
+    }
+  }
+}
