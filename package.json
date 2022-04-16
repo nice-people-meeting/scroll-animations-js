@@ -2,6 +2,7 @@
   "name": "scroll-animation-js",
   "version": "1.0.0",
   "main": "dist/index.html",
+  "homepage": "https://scroll-animation-js-web.vercel.app/",
   "repository": "https://github.com/nice-people-meeting/scroll-animation-js.git",
   "author": "",
   "license": "MIT",
@@ -11,6 +12,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
-    "prettier": "2.6.2"
+    "prettier": "2.6.2",
+    "sass": "^1.50.0"
   }
 }
