@@ -31,6 +31,9 @@ The documentation is in the docs directory, it serves as the demo as well.
 
 Browse [online documentation here](https://scroll-animations-js-web.vercel.app/).
 
+## NPM
+https://www.npmjs.com/package/scroll-animations-js
+
 ## 🛫 Quick start
 
 
@@ -147,20 +150,24 @@ These settings can be set both on certain elements, or as default while initiali
 
 
 If you use **fade animation**, you can customizing fade distance
-
+**Caution** : If `sa-fade-distance` option value is out of range of view-port than animation will not work!
 | Attribute | Description | Step | Default value  | Range | 
 | --------- | ----------- | -------- | --- | --- |
-| fade-distance | Far distance from element (px) | 100 | 200 | 100~1000(px) |
+| sa-fade-distance | Far distance from element (px) | 100 | 200 | 100~1000(px) |
+ 
 
 If you use **scale animation**, you can customizing scaling
 | Attribute | Description | Step | Default value  | Range | 
 | --------- | ----------- | -------- | --- | --- |
-| scale-x | Scale to x-axis | 0.1 | 1.1 | 1.1 ~ 3.0 |
-| scale-y | Scale to y-axis | 0.1 | 1.1 | 1.1 ~ 3.0 |
-| scale | Scale transformation | 0.1 | 1.1 | 1.1 ~ 3.0 |
+| sa-scale-x | Scale to x-axis | 0.1 | 1.1 | 1.1 ~ 3.0 |
+| sa-scale-y | Scale to y-axis | 0.1 | 1.1 | 1.1 ~ 3.0 |
+| sa-scale | Scale transformation | 0.1 | 1.1 | 1.1 ~ 3.0 |
 
 
-
+Example:
+```js
+div class="sa-animation sa-scale" sa-delay="300" sa-fade-distance="1000"></div>
+```
 
 
 ## 👏 Global Setting
@@ -172,8 +179,8 @@ To do this, pass options object to init() function, like so:
 ```js
   <script>
     SA.init({
-      delay: 0, // transition delay 0 ~ 3000ms, unit 100
-      duration: 500, // transition duration 0 ~ 3000ms, unit 100
+      delay: 0, // transition delay 0 ~ 5000ms, unit 100
+      duration: 500, // transition duration 0 ~ 5000ms, unit 100
       intersectionObserver:{
           threshold:0,
           rootMargin:"0px",
