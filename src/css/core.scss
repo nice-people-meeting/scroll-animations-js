@@ -19,11 +19,7 @@
 
     body[sa-delay='#{$i * 50}'] &,
     &.sa-animation[sa-delay='#{$i * 50}'] {
-      transition-delay: 0s;
-
-      &.sa-animate {
-        transition-delay: #{$i * 50}ms;
-      }
+      transition-delay: #{$i * 50}ms;
     }
   }
 }
