@@ -11,15 +11,15 @@
 }
 
 .sa-animation {
-  @for $i from 0 through 60 {
-    body[sa-duration='#{$i * 50}'] &,
-    &.sa-animation[sa-duration='#{$i * 50}'] {
-      transition-duration: #{$i * 50}ms;
+  @for $i from 0 through 50 {
+    body[sa-duration='#{$i * 100}'] &,
+    &.sa-animation[sa-duration='#{$i * 100}'] {
+      transition-duration: #{$i * 100}ms;
     }
 
-    body[sa-delay='#{$i * 50}'] &,
-    &.sa-animation[sa-delay='#{$i * 50}'] {
-      transition-delay: #{$i * 50}ms;
+    body[sa-delay='#{$i * 100}'] &,
+    &.sa-animation[sa-delay='#{$i * 100}'] {
+      transition-delay: #{$i * 100}ms;
     }
   }
 }
