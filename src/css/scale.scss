@@ -1,87 +1,39 @@
-// global initial(option) scale
-// ./index.js ->  options = {scale : i}
-@for $i from 1 through 20 {
-  @keyframes scaleBody#{$i} {
-    from {
-      transform: scale($i * 0.1);
-    }
-
-    to {
-      transform: scale(1);
-    }
-  }
-
-  body[sa-scale='#{$i}'] .sa-scale.sa-animated {
-    animation: scaleBody#{$i} 2s ease;
-  }
+// default setting
+.sa-scale {
+  transform: scale(2);
 }
 
-// element option separate X Y scale
-// sa-scale-x="15"
-// sa-scale-y="20"
-.sa-animation {
-  @for $i from 1 through 20 {
-    @keyframes scaleUp#{$i} {
-      0% {
-        transform: scale($i * 0.1);
-      }
+.sa-scale.sa-animated.sa-animation {
+  transform: scale(1);
+}
 
-      100% {
-        transform: scale(1);
-      }
+// // element option separate X Y scale
+// // sa-scale-x="15"
+// // sa-scale-y="20"
+
+.sa-scale {
+  @for $i from 1 through 30 {
+    &[sa-scale='#{$i * 0.1}'] {
+      transform: scale(#{$i * 0.1});
     }
 
-    &.sa-scale[sa-scale='#{$i}'].sa-animated {
-      animation: scaleUp#{$i} 2s ease;
+    &[sa-scale-x='#{$i * 0.1}'] {
+      transform: scaleX(#{$i * 0.1});
     }
 
-    @keyframes scaleX#{$i} {
-      0% {
-        transform: scaleX($i * 0.1);
-      }
-
-      100% {
-        transform: scale(1);
-      }
-    }
-
-    &.sa-scale[sa-scale-x='#{$i}'].sa-animated {
-      animation: scaleX#{$i} 2s ease;
-    }
-
-    @keyframes scaleY#{$i} {
-      0% {
-        transform: scaleY($i * 0.1);
-      }
-
-      100% {
-        transform: scale(1);
-      }
-    }
-    &.sa-scale[sa-scale-y='#{$i}'].sa-animated {
-      animation: scaleY#{$i} 2s ease;
+    &[sa-scale-y='#{$i * 0.1}'] {
+      transform: scaleY(#{$i * 0.1});
     }
   }
 }
 
-// element option both X Y scale
-// sa-scale-x="15" sa-scale-y="20"
-.sa-animation {
-  @for $i from 1 through 20 {
-    @for $j from 1 through 20 {
-      @keyframes scaleX#{$i}Y#{$j} {
-        0% {
-          transform: scale($i * 0.1, $j * 0.1);
-        }
+// // element option both X Y scale
+// // sa-scale-x="12" sa-scale-y="20"
 
-        100% {
-          transform: scale(1);
-        }
-      }
-
-      &.sa-scale[sa-scale-x='#{$i}'][sa-scale-y='#{$j}'].sa-animated {
-        animation: scaleX#{$i}Y#{$j} 2s ease;
-      }
+@for $i from 1 through 30 {
+  @for $j from 1 through 30 {
+    .sa-scale[sa-scale-x='#{$i}'][sa-scale-y='#{$j}']:not(.sa-animated) {
+      transform: scale(#{$i * 0.1}, #{$j * 0.1});
     }
   }
 }
