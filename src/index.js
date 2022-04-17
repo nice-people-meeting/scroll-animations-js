@@ -1,8 +1,6 @@
 let options = {
-  delay: 2500,
-  duration: 2500,
-  scale: 10,
-  fadeDistance: 20000, // (1000 ~ 4000)
+  delay: 500, // ( 50-3000)
+  duration: 2000, // ( 50-3000)
 };
 
 function init(settings) {
@@ -23,8 +21,6 @@ function init(settings) {
 
   document.querySelector('body').setAttribute('sa-duration', options.duration.toString());
   document.querySelector('body').setAttribute('sa-delay', options.delay.toString());
-  document.querySelector('body').setAttribute('sa-fade-distance', options.fadeDistance.toString());
-  document.querySelector('body').setAttribute('sa-scale', options.scale.toString());
 
   const io = new IntersectionObserver(
     (entries, observer) => {
