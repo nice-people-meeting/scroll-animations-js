@@ -1,7 +1,7 @@
 /**
  * @interface Options
- * delay: 0 ~ 3000 +50
- * duration: 100~3000 + 50
+ * delay: 0 ~ 3000 + 50
+ * duration: 100 ~ 3000 + 50
  * intersectionObserverOptions:
  */
 interface Options {
