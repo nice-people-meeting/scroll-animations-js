@@ -21,7 +21,7 @@
     &.sa-animation[sa-delay='#{$i * 50}'] {
       transition-delay: 0s;
 
-      &.aos-animate {
+      &.sa-animate {
         transition-delay: #{$i * 50}ms;
       }
     }
