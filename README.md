@@ -38,13 +38,13 @@ https://www.npmjs.com/package/scroll-animations-js
 #### Installation
 
 ```bash
-npm install scroll-animations.js
+npm install scroll-animations-js
 ```
 
 or
 
 ```bash
-yarn add scroll-animations.js
+yarn add scroll-animations-js
 ```
 
 #### Link styles
