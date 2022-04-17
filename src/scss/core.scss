@@ -11,7 +11,7 @@
 }
 
 .sa-animation {
-  @for $i from 1 through 60 {
+  @for $i from 0 through 60 {
     body[sa-duration='#{$i * 50}'] &,
     &.sa-animation[sa-duration='#{$i * 50}'] {
       transition-duration: #{$i * 50}ms;
