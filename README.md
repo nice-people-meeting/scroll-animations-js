@@ -2,14 +2,6 @@
     <a href="https://scroll-animations-js-web.vercel.app/">
         <img src="https://i.imgur.com/1eO3TpN.png" width="900"/>
     </a>
-
-<!--     <a href="https://github.com/buefy/buefy/releases"><img src="https://img.shields.io/github/v/release/buefy/buefy?logo=buefy&color=7957d5&labelColor=lightgrey" /></a>
-    <a href="https://www.npmjs.com/package/buefy"><img src="https://img.shields.io/npm/v/buefy.svg?logo=npm" /></a>
-    <a href="https://www.npmjs.com/package/buefy"><img src="https://img.shields.io/npm/dt/buefy.svg" /></a>
-    <a href="https://circleci.com/gh/buefy/buefy"><img src="https://img.shields.io/circleci/project/github/buefy/buefy.svg?style=flat-square" /></a>
-    <a href="https://codecov.io/gh/buefy/buefy"><img src="https://img.shields.io/codecov/c/github/buefy/buefy.svg?style=flat-square" /></a>
-    <a href="https://discordapp.com/invite/ZkdFJMr"><img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg?logo=discord" /></a>
-    <a href="https://buefy.org"><img src="https://img.shields.io/badge/code_style-buefy-7957d5.svg?style=flat-square" /></a> -->
 </p>
 
 > Scroll-Animations-JS is a powerful scroll animation library for [React.js](https://reactjs.org/), [Vue.js](https://vuejs.org/) and Vanilla-JavaScript.
@@ -50,13 +42,13 @@ yarn add scroll-animations-js
 #### Link styles
 
 ```js
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scroll-animations-js@1.0.9/dist/css/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scroll-animations-js@1.0.10/dist/css/index.min.css">
 ```
 
 #### Add scripts
 
 ```js
-<script src="https://cdn.jsdelivr.net/npm/scroll-animations-js@1.0.9/dist/scroll.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/scroll-animations-js@1.0.10/dist/scroll.min.js"></script>
 ```
 
 ## 🤔 How to use it?
@@ -77,8 +69,8 @@ function App() {
 - HTML
 
 ```js
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scroll-animations-js@1.0.9/dist/css/index.min.css">
-<script src="https://cdn.jsdelivr.net/npm/scroll-animations-js@1.0.9/dist/scroll.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scroll-animations-js@1.0.10/dist/css/index.min.css">
+<script src="https://cdn.jsdelivr.net/npm/scroll-animations-js@1.0.10/dist/scroll.min.js"></script>
 
 <div class="sa-animation sa-fade-up-left" sa-duration="3000"></div>
 
@@ -146,7 +138,7 @@ Vue.use(Animation, {
     ...
 ```
 
-```htmlmixed=
+```js
 <template>
     <div class="sa-animation sa-fade-up-left" sa-duration="3000"></div>
 </template>
@@ -161,14 +153,14 @@ These settings can be set both on certain elements, or as default while initiali
 | sa-duration | Duration of animation (ms) | 100  | 500           | 0 ~ 5000(ms) |
 | sa-delay    | Delay of animation (ms)    | 100  | 0             | 0 ~ 5000(ms) |
 
-If you use **fade animation**, you can customizing fade distance
+If you use **fade animation**, you can customizing fade distance.<br/>
 **Caution** : If `sa-fade-distance` option value is out of range of view-port than animation will not work!
 | Attribute | Description | Step | Default value | Range |
 | --------- | ----------- | -------- | --- | --- |
 | sa-fade-distance | Far distance from element (px) | 100 | 200 | 100~1000(px) |
 
-If you use **scale animation**, you can customizing scaling
-You **can't** use `sa-scale-x` or `sa-scale-y` with `sa-scale`
+If you use **scale animation**, you can customizing scaling. <br/>
+You **can't** use `sa-scale-x` or `sa-scale-y` with `sa-scale`.
 | Attribute | Description | Step | Default value | Range |
 | --------- | ----------- | -------- | --- | --- |
 | sa-scale-x | Scale to x-axis | 0.1 | 1.1 | 1.1 ~ 3.0 |
