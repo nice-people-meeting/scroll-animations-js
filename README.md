@@ -42,13 +42,13 @@ yarn add scroll-animations-js
 #### Link styles
 
 ```js
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scroll-animations-js@1.0.10/dist/css/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scroll-animations-js@1.0.11/dist/css/index.min.css">
 ```
 
 #### Add scripts
 
 ```js
-<script src="https://cdn.jsdelivr.net/npm/scroll-animations-js@1.0.10/dist/scroll.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/scroll-animations-js@1.0.11/dist/scroll.min.js"></script>
 ```
 
 ## 🤔 How to use it?
@@ -69,8 +69,8 @@ function App() {
 - HTML
 
 ```js
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scroll-animations-js@1.0.10/dist/css/index.min.css">
-<script src="https://cdn.jsdelivr.net/npm/scroll-animations-js@1.0.10/dist/scroll.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scroll-animations-js@1.0.11/dist/css/index.min.css">
+<script src="https://cdn.jsdelivr.net/npm/scroll-animations-js@1.0.11/dist/scroll.min.js"></script>
 
 <div class="sa-animation sa-fade-up-left" sa-duration="3000"></div>
 
